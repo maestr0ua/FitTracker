@@ -1,0 +1,187 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorControlActivated">@color/green_700</item>
+        <item name="android:windowBackground">@color/grey_200</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowSharedElementEnterTransition" tools:targetApi="lollipop">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition" tools:targetApi="lollipop">@android:transition/move</item>
+        <item name="android:windowAllowEnterTransitionOverlap" tools:targetApi="lollipop">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:targetApi="lollipop">false</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/color_window_background</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BaseTextStyle" parent="android:Widget">
+        <item name="android:gravity">left|start|center_vertical</item>
+        <item name="android:textColorHint">@color/grey_400</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--Input text widgets-->
+    <style name="InputTheme" parent="BaseTextStyle">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColorPrimary">@color/blue_400</item>
+        <item name="android:textColorSecondary">@color/blue_400</item>
+        <item name="android:padding">@dimen/input_padding</item>
+    </style>
+
+    <style name="InputTheme.Blue" parent="InputTheme">
+        <item name="android:textColor">@color/blue_400</item>
+    </style>
+
+    <style name="InputTheme.Grey" parent="InputTheme">
+        <item name="android:textColor">@color/grey_700</item>
+    </style>
+
+    <style name="BlueEditAut" parent="android:Widget">
+        <item name="android:textColorPrimary">@color/grey_600</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textColor">@color/grey_800</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/blue_400</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/blue_400
+        </item>
+        <item name="colorControlNormal">@color/blue_400</item>
+        <item name="colorControlActivated">@color/blue_400</item>
+        <item name="android:inputType">textNoSuggestions|textPassword</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!--MAIN THEME-->
+    <style name="MainTheme" parent="BaseTextStyle" />
+    <!--titles-->
+    <style name="MainTheme.Title" parent="MainTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/title_selector</item>
+    </style>
+
+    <style name="MainTheme.Title.Big" parent="@style/MainTheme.Title">
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="MainTheme.Title.Normal" parent="@style/MainTheme.Title">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="MainTheme.Title.Small" parent="@style/MainTheme.Title">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="MainTheme.Title.UltraSmall" parent="@style/MainTheme.Title">
+        <item name="android:textSize">@dimen/text_ultra_small</item>
+    </style>
+
+    <style name="MainTheme.Title.Normal.Bold" parent="@style/MainTheme.Title.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.Title.Big.Bold" parent="@style/MainTheme.Title.Big">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.Title.Small.Bold" parent="@style/MainTheme.Title.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.Title.UltraSmall.Bold" parent="@style/MainTheme.Title.UltraSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--subtitles-->
+    <style name="MainTheme.SubTitle" parent="@style/MainTheme">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/subtitle_selector</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Big" parent="@style/MainTheme.SubTitle">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Normal" parent="@style/MainTheme.SubTitle">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Small" parent="@style/MainTheme.SubTitle">
+        <item name="android:textSize">@dimen/text_ultra_small</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Big.Bold" parent="@style/MainTheme.SubTitle.Big">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Normal.Bold" parent="@style/MainTheme.SubTitle.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.SubTitle.Small.Bold" parent="@style/MainTheme.SubTitle.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--description-->
+    <style name="MainTheme.Description" parent="@style/MainTheme">
+        <item name="android:textColor">@color/description_selector</item>
+    </style>
+
+    <style name="MainTheme.Description.Big" parent="@style/MainTheme.Description">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="MainTheme.Description.Normal" parent="@style/MainTheme.Description">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="MainTheme.Description.Small" parent="@style/MainTheme.Description">
+        <item name="android:textSize">@dimen/text_ultra_small</item>
+    </style>
+
+    <style name="MainTheme.Description.Big.Bold" parent="@style/MainTheme.Description.Big">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.Description.Normal.Bold" parent="@style/MainTheme.Description.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme.Description.Small.Bold" parent="@style/MainTheme.Description.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Dialog style -->
+    <style name="DialogButtonStyle" parent="@style/MainTheme.Title.UltraSmall.Bold">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/button_blue_text_selector</item>
+    </style>
+
+    <style name="FacebookLoginButton">
+        <item name="android:background">@drawable/btn_facebook_backgroud</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawableLeft">@drawable/ic_facebook</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+</resources>

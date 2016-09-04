@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">FitKeeper</string>
+
+    <string name="google_maps_key">key</string>
+
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <string name="facebook_app_id">237375859939244</string>
+
+
+    <!-- Button Text-->
+    <string name="text_btn_sign_in">SIGN IN</string>
+    <string name="text_btn_send">SEND</string>
+    <string name="text_btn_reset">RESET</string>
+    <string name="text_btn_okay">OKAY</string>
+    <string name="text_btn_cancel">CANCEL</string>
+    <string name="text_btn_close">CLOSE</string>
+    <string name="text_btn_edit">EDIT</string>
+    <string name="text_btn_delete">DELETE</string>
+    <string name="text_btn_save">SAVE</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error">Error</string>
+
+    <string name="activity_list">Activity list</string>
+    <string name="activity_detail">Activity detail</string>
+    <string name="start_activity">Start activity</string>
+    <string name="analytics">Trends</string>
+    <string name="programs">Programs</string>
+    <string name="program_detail">Program details</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="activities_list">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Ice skating</item>
+        <item>Tennis</item>
+        <item>Snowboarding</item>
+        <item>Rowing</item>
+        <item>Bicycling</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="program_list">
+        <item>Long distance runner</item>
+        <item>Active men</item>
+    </string-array>
+
+    <string-array name="difficult_list">
+        <item>Beginner</item>
+        <item>Medium</item>
+        <item>Professional</item>
+        <item>Custom target</item>
+    </string-array>
+
+    <string name="distance_description">This program is intended to those who want to improve their skills long distance running</string>
+    <string name="activity_description">This program is intended to those who want to spend more time playing sports</string>
+    <string name="c_meters">Meters</string>
+    <string name="c_step">Steps</string>
+    <string name="c_time">Minutes</string>
+    <string name="c_calories">Calories</string>
+    <string name="difficult">Difficult:</string>
+    <string name="profile_information">Profile information</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="weight">Weight</string>
+    <string name="kg">kg</string>
+    <string name="time_synchronization">Time synchronization</string>
+    <string name="synchronization_with_google_fit">Synchronization with Google Fit</string>
+    <string name="hour">hour</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="duration">Duration:</string>
+    <string name="_00_00">00:00</string>
+    <string name="distance">Distance:</string>
+    <string name="km">km</string>
+    <string name="speed">Average speed:</string>
+    <string name="km_h">km/h</string>
+    <string name="steps">Steps:</string>
+    <string name="calories">Calories:</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="choose_available_program">Choose available program</string>
+    <string name="program">Program:</string>
+    <string name="difficult_clean">Difficult</string>
+    <string name="target">Target:</string>
+    <string name="activity_time">Activity time:</string>
+    <string name="min">min</string>
+    <string name="meters">m</string>
+    <string name="step">step</string>
+    <string name="cal">cal</string>
+    <string name="there_are_no_activities_at_this_moment">There are no activities at this moment</string>
+    <string name="there_are_no_programs_at_this_moment">There are no programs at this moment</string>
+    <string name="start_date">Start date:</string>
+    <string name="end_date">End date:</string>
+    <string name="current_target">Current target:</string>
+    <string name="current_result">Current result:</string>
+    <string name="analyze_your_achievements">Analyze your achievements</string>
+    <string name="activities">Activities</string>
+    <string name="log_out">Log out</string>
+    <string name="invalid_orientation">invalid orientation</string>
+    <string name="notification">Notification</string>
+    <string name="choice_activity">Choose Activity:</string>
+</resources>

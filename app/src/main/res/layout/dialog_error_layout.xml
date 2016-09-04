@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:paddingTop="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle_DIL"
+        style="@style/MainTheme.Title.Normal.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_error" />
+
+        <TextView
+            android:id="@+id/tvMessage_DIL"
+            style="@style/MainTheme.Description.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="4dp"
+        android:paddingStart="8dp">
+
+        <TextView
+            android:id="@+id/btnNegative_DIL"
+            style="@style/DialogButtonStyle"
+            android:layout_width="wrap_content"
+            android:text="@string/text_btn_close" />
+    </LinearLayout>
+
+</LinearLayout>

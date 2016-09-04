@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvHeader_AIH"
+    style="@style/MainTheme.Title.Normal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:gravity="center"
+    android:maxLines="1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" />
