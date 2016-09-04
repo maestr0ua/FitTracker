@@ -1,4 +1,4 @@
-package com.task.webchallengetask.ui.modules.analytics;
+package com.task.webchallengetask.ui.modules.analytics.presenters;
 
 import android.graphics.Color;
 import android.support.v4.util.Pair;

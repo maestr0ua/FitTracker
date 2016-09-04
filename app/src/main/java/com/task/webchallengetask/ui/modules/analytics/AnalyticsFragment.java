@@ -22,6 +22,8 @@ import com.task.webchallengetask.global.utils.RxUtils;
 import com.task.webchallengetask.global.utils.TimeUtil;
 import com.task.webchallengetask.ui.custom.CalendarView;
 import com.task.webchallengetask.ui.base.BaseFragment;
+import com.task.webchallengetask.ui.modules.analytics.adapters.DataTypesAdapter;
+import com.task.webchallengetask.ui.modules.analytics.presenters.AnalyticsPresenter;
 
 import java.util.List;
 
